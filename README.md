@@ -5,7 +5,7 @@
 ![GitHub forks](https://img.shields.io/github/forks/KobAmoah/Idiosyncratic-Momentum?style=social)
 ![GitHub Repo stars](https://img.shields.io/github/stars/KobAmoah/Idiosyncratic-Momentum?style=social)
 
-# Residual-Momentum
+# Idiosyncratic-Momentum
   This tutorial develops a strategy based on the idiosyncratic price momentum effect of stocks. It is designed to be run on the QuantConnect Platform. The strategy is derived from the paper "Eureka! A Momentum Strategy that Also Works in Japan" by Denis B. Chaves. Idiosyncratic momentum – an alternative definition of momentum – calculates the idiosyncratic returns from market regressions. A report is attached that details the performance of this view of momentum.
   
   Chaves (2012) suggests momentum can be made less volatile by removing the return component due to market beta exposure. To enable this comparison, an implementation of pure price momentum is provided.
