@@ -1,5 +1,5 @@
 # File: ResidualMomentum.py
-# Description: This file contains an implementation of residual momentum as described Denis Chaves(2012)
+# Description: This file contains an implementation of idiosyncratic/residual momentum as described Denis Chaves(2012)
 # Paper: https://papers.ssrn.com/sol3/papers.cfm?abstract_id=1982100
 #
 # The code modifies initial work by Jin Wu on Beta Factors for stocks.
