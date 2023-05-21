@@ -2,7 +2,7 @@
 # Description: This file contains an implementation of residual momentum as described Denis Chaves(2012)
 # Paper: https://papers.ssrn.com/sol3/papers.cfm?abstract_id=1982100
 #
-# The code modifies initial work by Jin Wu on Beta Factors for stocks to capture the proposed momentum factor
+# The code modifies initial work by Jin Wu on Beta Factors for stocks.
 # Jin Wu's algorithm :  https://www.quantconnect.com/learning/articles/investment-strategy-library/beta-factors-in-stocks
 #
 # Author: Kobby Amoah<amoahkobena@gmail.com>
