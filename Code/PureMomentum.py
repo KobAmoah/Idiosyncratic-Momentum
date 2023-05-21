@@ -1,4 +1,25 @@
-# https://quantpedia.com/Screener/Details/51
+# File: ResidualMomentum.py
+# Description: This file contains an implementation of pure price momentum after adjusting for revesal effects
+#
+# The code modifies initial work by Jin Wu on Short Term Reverals for stocks
+# Jin Wu algorithm :  https://www.quantconnect.com/learning/articles/investment-strategy-library/momentum-short-term-reversal-strategy
+#
+# Author: Kobby Amoah<amoahkobena@gmail.com>
+# Copyright (c) 2023 
+#
+# Licensed under the MIT License.
+# You may not use this file except in compliance with the License.
+# You may obtain a copy of the License at
+#   https://opensource.org/license/mit/
+#
+# Unless required by applicable law or agreed to in writing, software
+# distributed under the License is distributed on an "AS IS" BASIS,
+# WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or
+# implied.  See the License for the specific language governing
+# permissions and limitations under the License.
+#
+######################################################################
+######################################################################
 
 #region imports
 from AlgorithmImports import *
