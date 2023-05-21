@@ -12,6 +12,7 @@
 
 ## Code Files
 [Pure Momentum](https://github.com/KobAmoah/Residual-Momentum/blob/main/Code/PureMomentum.py)
+
 [Residual Momentum](https://github.com/KobAmoah/Residual-Momentum/blob/main/Code/ResidualMomentum.py)
 
 
