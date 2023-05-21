@@ -1,8 +1,8 @@
 # File: ResidualMomentum.py
 # Description: This file contains an implementation of pure price momentum after adjusting for revesal effects
 #
-# The code modifies initial work by Jin Wu on Short Term Reverals for stocks
-# Jin Wu algorithm :  https://www.quantconnect.com/learning/articles/investment-strategy-library/momentum-short-term-reversal-strategy
+# The code modifies initial work by Jin Wu on Short Term Reverals for stocks.
+# Jin Wu's algorithm :  https://www.quantconnect.com/learning/articles/investment-strategy-library/momentum-short-term-reversal-strategy
 #
 # Author: Kobby Amoah<amoahkobena@gmail.com>
 # Copyright (c) 2023 
@@ -55,7 +55,9 @@ class MomentumAlgorithm(QCAlgorithm):
                     self.SymbolPrice[i.Symbol] = SymbolData(i.Symbol)
                 
                 self.SymbolPrice[i.Symbol].window.Add(float(i.AdjustedPrice))
-                # Note this accounts for reversal effects
+                
+                ### Note this accounts for reversal effects
+                
                 if self.SymbolPrice[i.Symbol].window.IsReady:
                     price = np.array([i for i in self.SymbolPrice[i.Symbol].window])
                     returns = (price[1:-1]-price[2:])/price[2:]
