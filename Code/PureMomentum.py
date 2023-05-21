@@ -32,7 +32,7 @@ class MomentumAlgorithm(QCAlgorithm):
 
         self.SetStartDate(2016, 1, 1)   
         self.SetEndDate(2020, 1, 1)    
-        self.SetCash(100000)         
+        self.SetCash(1000000)         
 
         self.UniverseSettings.Resolution = Resolution.Daily
 
