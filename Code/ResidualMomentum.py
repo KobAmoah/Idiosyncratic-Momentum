@@ -1,3 +1,28 @@
+# File: ResidualMomentum.py
+# Description: This file contains an implementation of residual momentum as described Denis Chaves(2012)
+# Paper: https://papers.ssrn.com/sol3/papers.cfm?abstract_id=1982100
+#
+# The code modifies initial work by Jin Wu on Beta Factors for stocks to capture the proposed momentum factor
+# Jin Wu algorithm :  https://www.quantconnect.com/learning/articles/investment-strategy-library/beta-factors-in-stocks
+#
+# Author: Kobby Amoah<amoahkobena@gmail.com>
+# Copyright (c) 2023 
+#
+# Licensed under the MIT License.
+# You may not use this file except in compliance with the License.
+# You may obtain a copy of the License at
+#   https://opensource.org/license/mit/
+#
+# Unless required by applicable law or agreed to in writing, software
+# distributed under the License is distributed on an "AS IS" BASIS,
+# WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or
+# implied.  See the License for the specific language governing
+# permissions and limitations under the License.
+#
+######################################################################
+######################################################################
+
+
 #region imports
 from AlgorithmImports import *
 #endregion
