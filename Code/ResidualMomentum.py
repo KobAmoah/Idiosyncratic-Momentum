@@ -3,7 +3,7 @@
 # Paper: https://papers.ssrn.com/sol3/papers.cfm?abstract_id=1982100
 #
 # The code modifies initial work by Jin Wu on Beta Factors for stocks to capture the proposed momentum factor
-# Jin Wu algorithm :  https://www.quantconnect.com/learning/articles/investment-strategy-library/beta-factors-in-stocks
+# Jin Wu's algorithm :  https://www.quantconnect.com/learning/articles/investment-strategy-library/beta-factors-in-stocks
 #
 # Author: Kobby Amoah<amoahkobena@gmail.com>
 # Copyright (c) 2023 
