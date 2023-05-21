@@ -1,9 +1,9 @@
-![GitHub all releases](https://img.shields.io/github/downloads/KobAmoah/Residual-Momentum/total)
-![GitHub language count](https://img.shields.io/github/languages/count/KobAmoah/Residual-Momentum) 
-![GitHub top language](https://img.shields.io/github/languages/top/KobAmoah/Residual-Momentum?color=yellow) 
-![Bitbucket open issues](https://img.shields.io/bitbucket/issues/KobAmoah/Residual-Momentum)
-![GitHub forks](https://img.shields.io/github/forks/KobAmoah/Residual-Momentum?style=social)
-![GitHub Repo stars](https://img.shields.io/github/stars/KobAmoah/Residual-Momentum?style=social)
+![GitHub all releases](https://img.shields.io/github/downloads/KobAmoah/Idiosyncratic-Momentum/total)
+![GitHub language count](https://img.shields.io/github/languages/count/KobAmoah/Idiosyncratic-Momentum) 
+![GitHub top language](https://img.shields.io/github/languages/top/KobAmoah/Idiosyncratic-Momentum?color=yellow) 
+![Bitbucket open issues](https://img.shields.io/bitbucket/issues/KobAmoah/Idiosyncratic-Momentum)
+![GitHub forks](https://img.shields.io/github/forks/KobAmoah/Idiosyncratic-Momentum?style=social)
+![GitHub Repo stars](https://img.shields.io/github/stars/KobAmoah/Idiosyncratic-Momentum?style=social)
 
 # Residual-Momentum
   This tutorial develops a strategy based on the idiosyncratic price momentum effect of stocks. It is designed to be run on the QuantConnect Platform. The strategy is derived from the paper "Eureka! A Momentum Strategy that Also Works in Japan" by Denis B. Chaves. Idiosyncratic momentum – an alternative definition of momentum – calculates the idiosyncratic returns from market regressions. A report is attached that details the performance of this view of momentum.
