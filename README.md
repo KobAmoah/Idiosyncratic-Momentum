@@ -9,7 +9,8 @@
   This tutorial develops a strategy based on the idiosyncratic price momentum effect of stocks. It is designed to be run on the QuantConnect Platform. The strategy is derived from the paper ["Eureka! A Momentum Strategy that Also Works in Japan"](https://papers.ssrn.com/sol3/papers.cfm?abstract_id=1982100) by Denis B. Chaves. Idiosyncratic momentum – an alternative definition of momentum – calculates the idiosyncratic returns from market regressions. A report is attached that details the performance of this view of momentum.
   
   Chaves (2012) suggests momentum can be made less volatile by removing the return component due to market beta exposure. To enable this comparison, an implementation of pure price momentum is provided.
- 
+  
+* Note both algorithms selects ranked stocks from the Wilshire 5000 index. (The broad US Equity Market-Cap Weighted Index)
 * This work was initially done for the Finance 485 Course at Lake Forest College
 
 ## Code Files
